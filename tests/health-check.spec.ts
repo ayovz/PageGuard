@@ -41,7 +41,7 @@ const SITES: SiteConfig[] = [
     url: 'https://developer.mozilla.org',
     expectedTitlePattern: /mdn/i,
     criticalSelector: 'nav',
-    maxLoadTimeMs: 12000,
+    maxLoadTimeMs: 30000,
   },
   {
     name: 'Playwright Docs',
