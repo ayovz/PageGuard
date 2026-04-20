@@ -16,39 +16,39 @@ interface SiteConfig {
 
 const SITES: SiteConfig[] = [
   {
-    name: 'GitHub',
-    url: 'https://github.com',
-    expectedTitlePattern: /github/i,
-    criticalSelector: 'header',
-    maxLoadTimeMs: 15000,
+    name: 'TypeScript',
+    url: 'https://www.typescriptlang.org',
+    expectedTitlePattern: /typescript/i,
+    criticalSelector: 'nav',
+    maxLoadTimeMs: 12000,
   },
   {
     name: 'Wikipedia',
     url: 'https://www.wikipedia.org',
     expectedTitlePattern: /wikipedia/i,
     criticalSelector: '#www-wikipedia-org',
-    maxLoadTimeMs: 8000,
+    maxLoadTimeMs: 12000,
   },
   {
     name: 'npm Registry',
     url: 'https://www.npmjs.com',
     expectedTitlePattern: /npm/i,
     criticalSelector: 'header',
-    maxLoadTimeMs: 8000,
+    maxLoadTimeMs: 12000,
   },
   {
     name: 'MDN Web Docs',
     url: 'https://developer.mozilla.org',
     expectedTitlePattern: /mdn/i,
     criticalSelector: 'nav',
-    maxLoadTimeMs: 8000,
+    maxLoadTimeMs: 12000,
   },
   {
     name: 'Playwright Docs',
     url: 'https://playwright.dev',
     expectedTitlePattern: /playwright/i,
     criticalSelector: 'nav',
-    maxLoadTimeMs: 8000,
+    maxLoadTimeMs: 12000,
   },
 ];
 

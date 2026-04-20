@@ -16,20 +16,20 @@
 ```
 Running 21 tests using 2 workers
 
-  ✅ [chromium] › GitHub › Page loads successfully
-  ✅ [chromium] › GitHub › Page title matches expected pattern
-  ✅ [chromium] › GitHub › Critical UI element is visible
-  ✅ [chromium] › GitHub › Page has no broken console errors
-  ✅ [chromium] › Stack Overflow › Page loads successfully
-  ✅ [chromium] › Stack Overflow › Page title matches expected pattern
-  ✅ [chromium] › Stack Overflow › Critical UI element is visible
-  ✅ [chromium] › Stack Overflow › Page has no broken console errors
+  ✅ [chromium] › TypeScript › Page loads successfully
+  ✅ [chromium] › TypeScript › Page title matches expected pattern
+  ✅ [chromium] › TypeScript › Critical UI element is visible
+  ✅ [chromium] › TypeScript › Page has no broken console errors
+  ✅ [chromium] › Wikipedia › Page loads successfully
+  ✅ [chromium] › Wikipedia › Page title matches expected pattern
+  ✅ [chromium] › Wikipedia › Critical UI element is visible
+  ✅ [chromium] › Wikipedia › Page has no broken console errors
   ... (21 tests total across 2 browsers)
 
 ═══════════════════════════════════════
   PageGuard Health Report
 ═══════════════════════════════════════
-✅ GitHub               🟡 3241ms  HTTP 200
+✅ TypeScript           ⚡ 1243ms  HTTP 200
 ✅ Wikipedia            ⚡ 843ms   HTTP 200
 ✅ npm Registry         🟡 2341ms  HTTP 200
 ✅ MDN Web Docs         ⚡ 967ms   HTTP 200
@@ -58,7 +58,7 @@ Running 21 tests using 2 workers
 
 | Site | URL | Critical Element |
 |------|-----|-----------------|
-| GitHub | github.com | `header` |
+| TypeScript | typescriptlang.org | `nav` |
 | Wikipedia | wikipedia.org | `#www-wikipedia-org` |
 | npm Registry | npmjs.com | `header` |
 | MDN Web Docs | developer.mozilla.org | `nav` |
