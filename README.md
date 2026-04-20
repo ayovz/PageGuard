@@ -14,7 +14,7 @@
 ## 📸 Test Results Preview
 
 ```
-Running 21 tests using 2 workers
+Running 42 tests using 2 workers
 
   ✅ [chromium] › TypeScript › Page loads successfully
   ✅ [chromium] › TypeScript › Page title matches expected pattern
@@ -24,7 +24,7 @@ Running 21 tests using 2 workers
   ✅ [chromium] › Wikipedia › Page title matches expected pattern
   ✅ [chromium] › Wikipedia › Critical UI element is visible
   ✅ [chromium] › Wikipedia › Page has no broken console errors
-  ... (21 tests total across 2 browsers)
+  ... (42 tests total across 2 browsers)
 
 ═══════════════════════════════════════
   PageGuard Health Report
@@ -36,7 +36,7 @@ Running 21 tests using 2 workers
 ✅ Playwright Docs      ⚡ 721ms   HTTP 200
 ═══════════════════════════════════════
 
-  21 passed (45.2s)
+  42 passed (1.8m)
 ```
 
 ---
@@ -46,7 +46,7 @@ Running 21 tests using 2 workers
 | Test | Description | Pass Criteria |
 |------|-------------|---------------|
 | **Page Availability** | HTTP response status | Status 200 |
-| **Load Performance** | Time to DOM content loaded | < 5000ms |
+| **Load Performance** | Time to DOM content loaded | < 12000ms |
 | **Title Validation** | Page title matches expected pattern | Regex match |
 | **DOM Rendering** | Critical navigation element visible | Element visible |
 | **Console Errors** | JavaScript errors on page load | Logged & flagged |
