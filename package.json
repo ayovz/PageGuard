@@ -1,0 +1,29 @@
+{
+  "name": "pageguard",
+  "version": "1.0.0",
+  "description": "Automated website health monitoring using Playwright E2E testing",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:report": "playwright show-report",
+    "test:debug": "npx playwright test --debug",
+    "test:browsers": "npx playwright install chromium firefox"
+  },
+  "postinstall": "npx playwright install chromium firefox",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "playwright",
+    "e2e-testing",
+    "website-monitoring",
+    "qa-automation",
+    "typescript"
+  ],
+  "author": "Ayomal Weerasinghe",
+  "license": "MIT"
+}
